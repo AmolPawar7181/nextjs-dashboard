@@ -1,9 +1,9 @@
 import React from 'react';
-import {lusitana} from '../ui/fonts';
-import RevenueChart from '../ui/dashboard/revenue-chart';
-import {fetchRevenue, fetchLatestInvoices, fetchCardData} from '../lib/data';
-import LatestInvoices from '../ui/dashboard/latest-invoices';
-import {Card} from '../ui/dashboard/cards';
+import {lusitana} from '../../ui/fonts';
+import RevenueChart from '../../ui/dashboard/revenue-chart';
+import {fetchRevenue, fetchLatestInvoices, fetchCardData} from '../../lib/data';
+import LatestInvoices from '../../ui/dashboard/latest-invoices';
+import {Card} from '../../ui/dashboard/cards';
 
 const DashboardPage = async () => {
 	const revenue = await fetchRevenue();
